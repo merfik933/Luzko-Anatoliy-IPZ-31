@@ -8,6 +8,7 @@ header {
   display: flex;
   align-items: center;
   min-height: 80px;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-left {
@@ -111,6 +112,52 @@ section {
   line-height: 18.75px;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.portfolio-filter {
+  justify-content: center;
+  gap: 20px;
+}
+
+.portfolio-filter .filter-option {
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  padding:6px 22px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.portfolio-filter .filter-option input[type="radio"] {
+  display: none;
+}
+
+.portfolio-filter .filter-option:hover {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.portfolio-filter .filter-option input[type="radio"]:checked {
+  background-color: #2196F3;
+  border: none;
+}
+
+.portfolio-card h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+
+.portfolio-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 footer {
