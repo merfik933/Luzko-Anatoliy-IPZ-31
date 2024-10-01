@@ -9,44 +9,6 @@ header {
   min-height: 80px;
 }
 
-section {
-  padding-inline: 215px;
-  margin-bottom: 94px;
-  overflow: hidden;
-  justify-content: center;
-}
-
-.bg-white {
-  background-color: #fff;
-}
-
-.bg-light-gray {
-  background-color: #F5F4FA;
-}
-
-.bg-dark-gray {
-  background-color: #2F303A;
-  color: #ffffff;
-}
-
-.hero-banner {
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  justify-content: center;
-  align-items: center;
-}
-
-.about-us ul{
-  margin: 0;
-  justify-content: center;
-  gap: 50px;
-}
-
-.about-us p {
-  max-width: 270px;
-}
-
 .header-left {
   display: flex;
   align-items: center;
@@ -75,30 +37,105 @@ section {
   color: #757575;
 }
 
+section {
+  padding: 94px 215px;
+  justify-content: center;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-light-gray {
+  background-color: #F5F4FA;
+}
+
+.bg-dark-gray {
+  background-color: #2F303A;
+  color: #ffffff;
+}
+
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us ul{
+  justify-content: center;
+  gap: 50px;
+}
+
+.about-us h2 {
+  margin-top: 94px;
+}
+
+.about-us p {
+  max-width: 270px;
+}
+
+.our-team ul {
+  justify-content: center;
+  gap: 30px;
+}
+
+.team-member-card{
+  width: 270px;
+  height: 368px;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 
+    0px 2px 1px 0px #00000033,
+    0px 1px 1px 0px #00000024,
+    0px 1px 3px 0px #0000001F;
+}
+
+.team-member-card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+}
+
+.team-member-card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
 h1 {
   max-width: 696px;
-  text-align: center;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 44px;
+  font-weight: 900;
   line-height: 60px;
-  letter-spacing: 2.88px;
+  letter-spacing: 0.06em;
+  text-align: center;
+
 }
 
 h2 {
-  margin-top: 94px;
   margin-bottom: 50px;
-  text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 42.19px;
-  letter-spacing: 1,08px;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 h3 {
   font-size: 14px;
   font-weight: 700;
   line-height: 16.41px;
-  letter-spacing: 0.42px;
+  letter-spacing: 0.03em;
 }
 
 p {
@@ -106,12 +143,13 @@ p {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.42px;  
+  letter-spacing: 0.03em;
 }
 
 ul {
   display: flex;
   list-style-type: none;
+  margin: 0;
   padding-left: 0;
 }
 
