@@ -100,7 +100,7 @@ section {
 .team-member-card h3 {
   font-size: 16px;
   font-weight: 500;
-  line-height: 18.75px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
 
@@ -109,7 +109,7 @@ section {
 .team-member-card p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 18.75px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -125,7 +125,7 @@ section {
   padding:6px 22px;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.625;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -147,7 +147,7 @@ section {
 .portfolio-card h2 {
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   text-align: left;
 }
@@ -155,7 +155,7 @@ section {
 .portfolio-card p {
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.875;
   letter-spacing: 0.03em;
   text-align: left;
 }
@@ -177,7 +177,7 @@ address p {
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
@@ -185,7 +185,7 @@ address a {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
 }
 
@@ -193,7 +193,7 @@ h1 {
   max-width: 696px;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
 
@@ -203,7 +203,7 @@ h2 {
   margin-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42.19px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -211,7 +211,7 @@ h2 {
 h3 {
   font-size: 14px;
   font-weight: 700;
-  line-height: 16.41px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -219,7 +219,7 @@ p {
   color: #757575;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -235,7 +235,7 @@ a {
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16.41px;
+  line-height: 1.17;
   letter-spacing: 0.28px;
 }
 
@@ -252,7 +252,7 @@ button {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.96px;
 }
 
