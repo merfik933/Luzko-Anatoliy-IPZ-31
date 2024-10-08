@@ -12,9 +12,15 @@
   --blue-button: #2196F3;
   --blue-button-active-color: #188CE8;
   
-  --dark-gray-shadow: 0px 2px 1px 0px #00000033,
+  --dark-gray-shadow: 
+    0px 2px 1px 0px #00000033,
     0px 1px 1px 0px #00000024,
     0px 1px 3px 0px #0000001F;
+  --checked-button-shadow:
+    0px 2px 2px 0px #0000001F,
+    0px 1px 2px 0px #00000014,
+    0px 3px 1px 0px #0000001A;
+  
 }
 
 body {
@@ -262,6 +268,7 @@ footer .container {
 .filter-option:has(input[type="radio"]:checked) {
   background-color: var(--obj-active-color);
   color: var(--text-white);
+  box-shadow: var(--checked-button-shadow);
 }
 
 .filter-option:hover {
