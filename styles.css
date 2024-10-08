@@ -3,11 +3,12 @@
   --text-gray: #757575;
   --text-white: #fff;
   --transparent-white-text: rgba(255, 255, 255, 0.6);
-  --border-white: #ECECEC;
+  --border-light-gray: #ECECEC;
   --bg-white: #fff;
   --bg-light-gray: #F5F4FA;
   --bg-dark-gray: #2F303A;
   --obj-active-color: #2196F3;
+  --light-gray-button: #F5F4FA;
   --blue-button: #2196F3;
   --blue-button-active-color: #188CE8;
   
@@ -29,7 +30,7 @@ header, footer, section, .container {
 }
 
 header {
-  border-bottom: 1px solid var(--border-white);
+  border-bottom: 1px solid var(--border-light-gray);
 }
 
 h1 {
@@ -42,7 +43,7 @@ h1 {
 }
 
 h2 {
-  margin-block: 0 50px;
+  margin: 0;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
@@ -58,6 +59,7 @@ h3 {
 }
 
 p {
+  margin: 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -101,6 +103,14 @@ button:active {
   background-color: var(--obj-active-color);
 }
 
+label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1,625;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
 address {
   font-style: normal;
   display: flex;
@@ -127,6 +137,10 @@ address a {
   flex-direction: column;
   width: 1170px;
   padding-block: 94px;
+}
+
+.container > h2 {
+  margin-bottom: 50px;
 }
 
 header .container{
@@ -228,36 +242,49 @@ footer .container {
 }
 
 .portfolio-filter {
+  display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 8px;
+  margin-bottom: 50px;
 }
 
-.portfolio-filter .filter-option {
+.filter-option {
   background-color: var(--bg-light-gray);
+  padding: 6px 22px;
   border-radius: 4px;
-  padding:6px 22px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.625;
-  letter-spacing: 0.03em;
-  text-align: center;
+  cursor: pointer;
 }
 
-.portfolio-filter .filter-option input[type="radio"] {
+.filter-option input[type="radio"] {
   display: none;
 }
 
-.portfolio-filter .filter-option:hover {
+.filter-option:has(input[type="radio"]:checked) {
   background-color: var(--obj-active-color);
   color: var(--text-white);
 }
 
-.portfolio-filter .filter-option input[type="radio"]:checked {
+.filter-option:hover {
   background-color: var(--obj-active-color);
-  border: none;
+  color: var(--text-white);
 }
 
-.portfolio-card h2 {
+.portfolio-list {
+  gap: 30px;
+}
+
+.portfolio-list__card {
+  width: 370px;
+  border: 1px solid var(--border-light-gray);
+  box-sizing: border-box;
+}
+
+.portfolio-list__card-info {
+  padding: 20px 24px;
+  gap: 4px;
+}
+
+.portfolio-list__card h2 {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -265,7 +292,7 @@ footer .container {
   text-align: left;
 }
 
-.portfolio-card p {
+.portfolio-list__card p {
   font-size: 16px;
   line-height: 1.875;
   text-align: left;
